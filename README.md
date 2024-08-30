@@ -6,17 +6,29 @@
 <img title="Architecture of the proposed network." src="https://github.com/SYSUzrc/APDM/blob/main/insert/pipeline.png" width="90%">
 </center>
 
+## Installation
+### Create a Virtual Environment
+```
+conda create --name APDM python=3.7.12
+conda activate APDM
+```
+
+### Install Packages
+```
+pip install -r requirements.txt
+```
+
 
 ## Evaluation
 ### Pre-trained Model Weights
 &emsp;We have shared [a pre-trained model](https://igi-web.tugraz.at/download/OzdenizciLegensteinTPAMI2023/WeatherDiff64.pth.tar) on the NH-Haze dataset, with its configuration file designated as `nhaze.yml`. Please deposit it in the root directory of the project. <br /> 
 &emsp;If you wish to test our model on alternative datasets, please retrain the model and organize the datasets in the following manner:
 ```
--- APDM-main
-   -- dataset_name
-      -- gt
-      -- input
-      -- dataset_name.txt
+|-- APDM-main
+|  |-- dataset_name
+|  |  |-- gt
+|  |  |-- input
+|  |  |-- dataset_name.txt
 ```
 
 ### Dataset Preparation
