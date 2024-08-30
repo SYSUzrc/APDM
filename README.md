@@ -25,7 +25,7 @@
 ### Evaluating on the NH-haze Dataset
 
 ```bash
-python eval_diffusion.py --config "nhaze.yml" --resume 'xxx.pth.tar' --sampling_timesteps 25 --grid_r 16
+python eval_diffusion.py --config "nhaze.yml" --resume 'Nhaze_ddpm.pth.tar' --sampling_timesteps 25 --grid_r 16
 ```
 
 ## NH-Haze Dataset
@@ -36,14 +36,14 @@ python eval_diffusion.py --config "nhaze.yml" --resume 'xxx.pth.tar' --sampling_
     <th align="center">Output</th>
   </tr>
   <tr>
-    <td align="center"><img src="https://github.com/SYSUzrc/APDM/blob/main/insert/01.png" width="300" height="auto" alt="rd11"></td>
-    <td align="center"><img src="https://github.com/SYSUzrc/APDM/blob/main/insert/02_demo.gif" width="300" height="auto" alt="rd12"></td>
-    <td align="center"><img src="https://github.com/SYSUzrc/APDM/blob/main/insert/01_output.png" width="300" height="auto" alt="rd13"></td>
+    <td align="center"><img src="https://github.com/SYSUzrc/APDM/blob/main/insert/01.png" width="310" height="auto" alt="rd11"></td>
+    <td align="center"><img src="https://github.com/SYSUzrc/APDM/blob/main/insert/02_demo.gif" width="310" height="auto" alt="rd12"></td>
+    <td align="center"><img src="https://github.com/SYSUzrc/APDM/blob/main/insert/01_output.png" width="310" height="auto" alt="rd13"></td>
   </tr>
   <tr>
-    <td align="center"><img src="https://github.com/SYSUzrc/APDM/blob/main/insert/02.png" width="300" height="auto" alt="rd11"></td>
-    <td align="center"><img src="https://github.com/SYSUzrc/APDM/blob/main/insert/01_demo.gif" width="300" height="auto" alt="rd12"></td>
-    <td align="center"><img src="https://github.com/SYSUzrc/APDM/blob/main/insert/02_output.png" width="300" height="auto" alt="rd13"></td>
+    <td align="center"><img src="https://github.com/SYSUzrc/APDM/blob/main/insert/02.png" width="310" height="auto" alt="rd11"></td>
+    <td align="center"><img src="https://github.com/SYSUzrc/APDM/blob/main/insert/01_demo.gif" width="310" height="auto" alt="rd12"></td>
+    <td align="center"><img src="https://github.com/SYSUzrc/APDM/blob/main/insert/02_output.png" width="310" height="auto" alt="rd13"></td>
   </tr>
 </table>
 
