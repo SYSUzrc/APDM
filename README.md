@@ -47,7 +47,7 @@ python eval_diffusion.py --config "nhaze.yml" --resume 'xxx.pth.tar' --sampling_
   </tr>
 </table>
 
-## Acknowledgmnet
+## Acknowledgmet
 &emsp;Portions of this code repository are derived from the following works. Acknowledgement is extended to these seminal contributions:
 * https://github.com/IGITUGraz/WeatherDiffusion
 * https://github.com/ermongroup/ddim
