@@ -1,4 +1,4 @@
-# APDM
+# APDM: Adaptive Physics-aware Diffusion Model for image dehazing
 &emsp;Codes for paper “Adaptive Physics-Aware Diffusion Models for Patch-Based Image Dehazing”
 
 ## Pipeline
