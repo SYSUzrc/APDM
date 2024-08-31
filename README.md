@@ -18,7 +18,6 @@ conda activate APDM
 pip install -r requirements.txt
 ```
 
-
 ## Evaluation
 ### Pre-trained Model Weights
 &emsp;We have shared [a pre-trained model](https://igi-web.tugraz.at/download/OzdenizciLegensteinTPAMI2023/WeatherDiff64.pth.tar) on the NH-Haze dataset, with its configuration file designated as `nhaze.yml`. Please deposit it in the root directory of the project. <br /> 
@@ -59,7 +58,7 @@ python eval_diffusion.py --config "nhaze.yml" --resume 'Nhaze_ddpm.pth.tar' --sa
   </tr>
 </table>
 
-## Acknowledgmet
+## Acknowledgment
 &emsp;Portions of this code repository are derived from the following works. Acknowledgement is extended to these seminal contributions:
 * https://github.com/IGITUGraz/WeatherDiffusion
 * https://github.com/ermongroup/ddim
