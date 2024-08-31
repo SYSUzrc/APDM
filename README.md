@@ -1,5 +1,6 @@
 # APDM: Adaptive Physics-aware Diffusion Model for image dehazing
-&emsp;Codes for paper “Adaptive Physics-Aware Diffusion Models for Patch-Based Image Dehazing”
+&emsp;Codes for paper “**Adaptive Physics-Aware Diffusion Models for Patch-Based Image Dehazing**”  <br />
+$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$  _Ruicheng Zhang, Kanghui Tian, Xiangkun Shi, Yuhan Huang, and Zhi Jin_ <br />
 
 ## Pipeline
 <center class ='img'>
