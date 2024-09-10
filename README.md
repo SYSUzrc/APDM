@@ -1,10 +1,19 @@
 # APDM: Adaptive Physics-aware Diffusion Model for image dehazing
+
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
 &emsp;Codes for paper “**Adaptive Physics-Aware Diffusion Models for Patch-Based Image Dehazing**”  <br />
-$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$  _Ruicheng Zhang, Kanghui Tian, Xiangkun Shi, Yuhan Huang, and Zhi Jin_ <br />
+
+
+$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$  _Ruicheng Zhang, Kanghui Tian, Xiangkun Shi, Yuhan Huang, Luwei Tu, and Zhi Jin*_ <br />
 
 ## Pipeline
 <center class ='img'>
-<img title="Architecture of the proposed network." src="https://github.com/SYSUzrc/APDM/blob/main/insert/pipeline.png" width="90%">
+<img title="Architecture of the proposed network." src="https://github.com/SYSUzrc/APDM/blob/main/insert/pipeline.png" width="100%">
 </center>
 
 ## Installation
@@ -21,7 +30,7 @@ pip install -r requirements.txt
 
 ## Evaluation
 ### Pre-trained Model Weights
-&emsp;We have shared [a pre-trained model](https://igi-web.tugraz.at/download/OzdenizciLegensteinTPAMI2023/WeatherDiff64.pth.tar) on the NH-Haze dataset, with its configuration file designated as `nhaze.yml`. Please deposit it in the root directory of the project. <br /> 
+&emsp;We have shared [a pre-trained model](https://igi-web.tugraz.at/download/OzdenizciLegensteinTPAMI2023/WeatherDiff64.pth.tar) on the NH-Haze dataset, with its configuration file designated as `nhaze.yml`. Please place it in the `./ckpts` folder. <br /> 
 &emsp;If you wish to test our model on alternative datasets, please retrain the model and organize the datasets in the following manner:
 ```
 |-- APDM-main
@@ -37,7 +46,7 @@ pip install -r requirements.txt
 ### Evaluating on the NH-haze Dataset
 
 ```bash
-python eval_diffusion.py --config "nhaze.yml" --resume 'Nhaze_ddpm.pth.tar' --sampling_timesteps 25 --grid_r 16
+python eval_diffusion.py --config "test.yml" --resume 'Nhaze_ddpm.pth.tar' --sampling_timesteps 25 --grid_r 4
 ```
 
 ## NH-Haze Dataset
@@ -59,7 +68,28 @@ python eval_diffusion.py --config "nhaze.yml" --resume 'Nhaze_ddpm.pth.tar' --sa
   </tr>
 </table>
 
+## Auther
+📧 : zhangrch23@mail2.sysu.edu.cn
+
 ## Acknowledgment
+&emsp;This work was supported by the National Natural Science Foundation of China under Grant No.62071500; Supported by Supported by Shenzhen Science and Technology Program under Grant No. JCYJ20230807111107015. Supported by Fundamental Research Funds for the Central Universities, Sun Yat-sen University under Grant No. 241gqb015.
+&emsp;*Zhi Jin is the corresponding author. <br />
 &emsp;Portions of this code repository are derived from the following works. Acknowledgement is extended to these seminal contributions:
 * https://github.com/IGITUGraz/WeatherDiffusion
 * https://github.com/ermongroup/ddim
+
+
+<!-- links -->
+[your-project-path]: https://github.com/SYSUzrc/APDM
+[contributors-shield]: https://img.shields.io/github/contributors/SYSUzrc/APDM.svg?style=flat-square 
+[contributors-url]: https://github.com/SYSUzrc/APDM/graphs/contributors 
+[forks-shield]: https://img.shields.io/github/forks/SYSUzrc/APDM.svg?style=flat-square 
+[forks-url]: https://github.com/SYSUzrc/APDM/network/members 
+[stars-shield]: https://img.shields.io/github/stars/SYSUzrc/APDM.svg?style=flat-square 
+[stars-url]: https://github.com/SYSUzrc/APDM/stargazers 
+[issues-shield]: https://img.shields.io/github/issues/SYSUzrc/APDM.svg?style=flat-square 
+[issues-url]: https://github.com/SYSUzrc/APDM/issues 
+[license-shield]: https://img.shields.io/github/license/SYSUzrc/APDM.svg?style=flat-square 
+[license-url]: https://github.com/SYSUzrc/APDM/blob/master/LICENSE.txt 
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555 
+[linkedin-url]: https://linkedin.com/in/zhangruicheng 
