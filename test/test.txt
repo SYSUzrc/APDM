@@ -1,0 +1,4 @@
+./test/input/01.png
+./test/input/02.png
+./test/input/03.png
+./test/input/04.png
