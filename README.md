@@ -90,6 +90,6 @@ python eval_diffusion.py --config "test.yml" --resume 'Nhaze_ddpm.pth.tar' --sam
 [issues-shield]: https://img.shields.io/github/issues/SYSUzrc/APDM.svg?style=flat-square 
 [issues-url]: https://github.com/SYSUzrc/APDM/issues 
 [license-shield]: https://img.shields.io/github/license/SYSUzrc/APDM.svg?style=flat-square 
-[license-url]: https://github.com/SYSUzrc/APDM/LICENSE.txt 
+[license-url]: https://github.com/SYSUzrc/APDM/blob/main/LICENSE.txt 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555 
 [linkedin-url]: https://linkedin.com/in/zhangruicheng 
