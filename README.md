@@ -68,7 +68,7 @@ python eval_diffusion.py --config "test.yml" --resume 'Nhaze_ddpm.pth.tar' --sam
   </tr>
 </table>
 
-## Auther
+## Author
 📧 : zhangrch23@mail2.sysu.edu.cn
 
 ## Acknowledgment
