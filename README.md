@@ -16,6 +16,26 @@ $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$  _Ruicheng Zhang, Kanghui Tian, Xia
 <img title="Architecture of the proposed network." src="https://github.com/SYSUzrc/APDM/blob/main/insert/pipeline.png" width="100%">
 </center>
 
+## Demo
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <th align="center">Input Condition</th>
+    <th align="center">Restoration Process</th>
+    <th align="center">Output</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://github.com/SYSUzrc/APDM/blob/main/insert/01.png" width="310" height="auto" alt="rd11"></td>
+    <td align="center"><img src="https://github.com/SYSUzrc/APDM/blob/main/insert/02_demo.gif" width="310" height="auto" alt="rd12"></td>
+    <td align="center"><img src="https://github.com/SYSUzrc/APDM/blob/main/insert/01_output.png" width="310" height="auto" alt="rd13"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://github.com/SYSUzrc/APDM/blob/main/insert/02.png" width="310" height="auto" alt="rd11"></td>
+    <td align="center"><img src="https://github.com/SYSUzrc/APDM/blob/main/insert/01_demo.gif" width="310" height="auto" alt="rd12"></td>
+    <td align="center"><img src="https://github.com/SYSUzrc/APDM/blob/main/insert/02_output.png" width="310" height="auto" alt="rd13"></td>
+  </tr>
+</table>
+
+
 ## Installation
 ### Create a Virtual Environment
 ```
@@ -49,24 +69,6 @@ pip install -r requirements.txt
 python eval_diffusion.py --config "test.yml" --resume 'Nhaze_ddpm.pth.tar' --sampling_timesteps 25 --grid_r 4
 ```
 
-## NH-Haze Dataset
-<table border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <th align="center">Input Condition</th>
-    <th align="center">Restoration Process</th>
-    <th align="center">Output</th>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://github.com/SYSUzrc/APDM/blob/main/insert/01.png" width="310" height="auto" alt="rd11"></td>
-    <td align="center"><img src="https://github.com/SYSUzrc/APDM/blob/main/insert/02_demo.gif" width="310" height="auto" alt="rd12"></td>
-    <td align="center"><img src="https://github.com/SYSUzrc/APDM/blob/main/insert/01_output.png" width="310" height="auto" alt="rd13"></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://github.com/SYSUzrc/APDM/blob/main/insert/02.png" width="310" height="auto" alt="rd11"></td>
-    <td align="center"><img src="https://github.com/SYSUzrc/APDM/blob/main/insert/01_demo.gif" width="310" height="auto" alt="rd12"></td>
-    <td align="center"><img src="https://github.com/SYSUzrc/APDM/blob/main/insert/02_output.png" width="310" height="auto" alt="rd13"></td>
-  </tr>
-</table>
 
 ## Author
 📧 : zhangrch23@mail2.sysu.edu.cn
