@@ -9,7 +9,7 @@
 &emsp;🎖️Codes for paper “**Adaptive Physics-Aware Diffusion Models for Patch-Based Image Dehazing**”  <br />
 
 
-$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$  _Ruicheng Zhang, Kanghui Tian, Xiangkun Shi, Yuhan Huang, Luwei Tu, and Zhi Jin*_ <br />
+$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$  _Ruicheng Zhang, Kanghui Tian, Xiangkun Shi, Yuhan Huang, Luwei Tu, and Zhi Jin*_ <br />
 
 ## Pipeline
 <center class ='img'>
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 ## Evaluation
 ### Pre-trained Model Weights
-&emsp;We have shared [a pre-trained model](https://igi-web.tugraz.at/download/OzdenizciLegensteinTPAMI2023/WeatherDiff64.pth.tar) on the NH-Haze dataset, with its configuration file designated as `nhaze.yml`. Please place it in the `./ckpts` folder. <br /> 
+&emsp;We have shared [a pre-trained model](https://pan.baidu.com/s/1zwSrDczDZCYqnGNZOJ7CKA?pwd=1234) on the NH-Haze dataset, with its configuration file designated as `nhaze.yml`. Please place it in the `./ckpts` folder. <br /> 
 &emsp;If you wish to test our model on alternative datasets, please retrain the model and organize the datasets in the following manner:
 ```
 |-- APDM-main
