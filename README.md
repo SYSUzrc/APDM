@@ -10,11 +10,6 @@
 
 
 
-## Pipeline
-<center class ='img'>
-<img title="Architecture of the proposed network." src="https://github.com/SYSUzrc/APDM/blob/main/insert/pipeline.png" width="100%">
-</center>
-
 ## Demo
 <table border="0" cellspacing="0" cellpadding="0">
   <tr>
