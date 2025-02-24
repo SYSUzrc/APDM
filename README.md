@@ -9,7 +9,6 @@
 &emsp;🎖️Codes for paper “**Adaptive Physics-Aware Diffusion Models for Patch-Based Image Dehazing**”  <br />
 
 
-$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$  _Ruicheng Zhang, Kanghui Tian, Xiangkun Shi, Yuhan Huang, Luwei Tu, and Zhi Jin*_ <br />
 
 ## Pipeline
 <center class ='img'>
